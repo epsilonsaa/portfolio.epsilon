@@ -7,15 +7,25 @@
 
 </head>
 <body>
-    <?php
-    
-    $string = 'could be any string';
 
-    echo '<h2>Original String: </h2> ';
-    echo $string;
-    echo '<h2>Reversed: </h2> ';
+<form action="StringReversal.php" method="post">
+<input type="text" name="user">
+<input type="submit">
+</form>
+    <?php
+
+    if(!empty($_POST['user']) && isset($_POST['user'])){
+        @$strin = $_POST[user];
+        echo $strin;
+    }
+    
+    
+    $string = $strin;
 
     $stringLength = 0;
+
+    echo "<br>";
+    echo "<h3>Reversed: </h3>";
 
 //Since i cant use inbuilt functions i used a for loop to find string length
     for ($i=0; $i < 1000 ; $i++) { 
