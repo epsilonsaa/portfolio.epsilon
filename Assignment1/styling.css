@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background: linear-gradient(lightblue, lightgreen)
+}
+
+table.t01 {
+  border: 3px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.t01 td, table.t01 th {
+  border: 3px solid #000000;
+  padding: 5px 4px;
+}
+table.t01 tbody td {
+  font-size: 19px;
+}
+table.t01 thead {
+  background: #CFCFCF;
+  background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+  border-bottom: 3px solid #000000;
+}
+table.t01 thead th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+
+.button {
+  background-color: #ECECEC
+  color: white;
+  padding: 16px 1px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 17px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  width: 30%;	
+  background-color: white; 
+  color: black; 
+  border: 2px solid #108DE8;	
+	}
+.button1:hover {
+  background-color: #108DE8;
+  color: white;
+  border-radius: 12px;
+}
+
+#image1 {width:100px; height:100px; }
+
+
+/*for linked pages*/
+
+#profile {
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 40px;
+letter-spacing: -0.8px;
+word-spacing: 2px;
+color: #417FFF;
+font-weight: normal;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+#pfp1 {
+	
+	float:right;width:300px;height:300px;
+}
+

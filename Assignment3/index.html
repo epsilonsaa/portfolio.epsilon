@@ -1,0 +1,60 @@
+<html lang="en">
+
+<!-- FA18-BSSE-0012  Syed Arsalan Ahmed -->
+<head>
+    <title>Cookies</title>
+
+</head>
+<body>
+    <h1>Cookie Demonstration</h1>
+    <h3>Enter your info:</h3>
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="cName" onclick="liveValidate()" placeholder="6-12 Words only" /></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" id="cEmail" onclick="liveValidate()" placeholder="abc@xyz.com" /></td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><input type="text" id="cCountry" onclick="liveValidate()" placeholder="6-12 Words only"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Set Cookie" onclick="setCookie()" />
+                <input type="button" value="Clear" onclick="clearForm()" />
+            </td>
+        </tr>
+    </table>
+    <div class="feedback"></div>
+
+    <br>
+    <br>
+    <br>
+    <h3>Cookie Displayer</h3>
+    <table>
+    <tr>
+        <td>Name:</td>
+        <td><input type="text" id="Name" /></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><input type="text" id="Email" /></td>
+    </tr>
+    <tr>
+        <td>Country:</td>
+        <td><input type="text" id="Country" /></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="button" value="Get Cookie" onclick="getCookie()" />
+            <input type="button" value="Clear Cookie" onclick="clearCookie()" />
+        </td>
+    </tr>
+</table>
+    
+    <script src="javasc.js"></script>
+</body>
+</html>
