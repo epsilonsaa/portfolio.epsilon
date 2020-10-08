@@ -1,2 +1,2 @@
 # portfolio.epsilon
-My portfolio for uni Assignents
+My portfolio so far, a work in progress
